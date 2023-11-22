@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "SampleProject">
+	
+	<test name="Table Data">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.programs.testcases.TC001"></class>
+		</classes>
+	</test>
+	
+	
+</suite>
